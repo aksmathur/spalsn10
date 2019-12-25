@@ -5,11 +5,11 @@ body {
   height: 100%;
 }
 h3 {
-  font: Arial Bold;
+  font-family: 'Arial', sans-serif;
   font-size:17px;
 }
 .grid {
-  font: arial;
+  font-family: 'Arial', sans-serif;
   font-size: 17px;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -29,8 +29,7 @@ h3 {
   grid-gap: 10em;
   align-items: center;
   padding: 3em 1em 1em 2em;
-  grid-auto-rows: minmax (100px, auto);
-  font-family: Arial;
+  font-family: 'Arial', sans-serif;
   font-size: 17px;
   text-align: justify;
 }
@@ -63,7 +62,7 @@ header > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3em;
-  align-items: top;
+  align-items: stretch;
   padding: 2em 2em 2em 3em;
   text-align: justify;
   background: white;
@@ -76,14 +75,13 @@ header > div{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2em;
-  align-items: top;
+  align-items: stretch;
   padding: 2em 2em 2em 3em;
   text-align: justify;
   color: white;
   background: #1b447f;
   padding: 1em 1em 1em 1em;
 }
-
 .ih4 {
   font-size: 17px;
   border-bottom: .5px solid #ecb722;
@@ -99,9 +97,7 @@ nav ul {
   margin-left: 1rem;
   text-align: center;
   align-items: center;
-
 }
-
 nav ul li {
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
@@ -121,7 +117,6 @@ nav ul li {
   color: #3A3A3A;
   font-size: .7rem;
   text-decoration: none;
-
 }
 .navlink1 {
   background-color: orange;
@@ -134,9 +129,8 @@ nav ul li {
 .contact {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  align-items: center;
+  align-items: stretch;
   padding: 3em 1em 1em 2em;
-
 }
 .contactbox {
   color: #3A3A3A;
@@ -191,7 +185,7 @@ form .submit:hover {
   position: relative;
 }
 .footerwrap {
-  font: arial;
+  font-family: 'Arial', sans-serif;
   font-size: 17px;
   display: block;
   padding: 3rem 2rem 2rem 3rem;
@@ -212,9 +206,7 @@ footer.nav ul {
   margin-left: 1rem;
   text-align: center;
   align-items: center;
-
 }
-
 .footernav ul li {
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
@@ -233,12 +225,10 @@ footer.nav ul {
   color: white;
   font-size: .7rem;
   text-decoration: none;
-
 }
 .navlink1 {
   background-color: orange;
   color: #3A3A3A;
   font-size: 1rem;
   text-decoration: none;
-
 }
